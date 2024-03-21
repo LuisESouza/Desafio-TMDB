@@ -12,7 +12,7 @@ O desafio consistia em criar um site que exibisse os filmes populares utilizando
 ## *Descrição do Projeto*
 *O site "Desafio TMDb" tem como finalidade mostrar uma lista dos filmes mais populares atualmente.*
 
-## *Funcionalidades**
+## *Funcionalidades*
 - *Exibição dos filmes populares*
 - *Utilização de fontes do Google Fonts para estilização*
 - *Responsividade para diferentes dispositivos*
