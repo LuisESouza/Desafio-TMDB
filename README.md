@@ -14,8 +14,6 @@ O desafio consistia em criar um site que exibisse os filmes populares utilizando
 
 ## *Funcionalidades*
 - *Exibição dos filmes populares*
-- *Utilização de fontes do Google Fonts para estilização*
-- *Responsividade para diferentes dispositivos*
 
 ## *Como Executar:*
 *Para executar este projeto localmente, siga estas etapas:*
