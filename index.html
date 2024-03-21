@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <div class="div-logo">
+                <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt="">
+            </div>
+            <div class="container-link">
+                <ul class="navbar-ul">
+                    <li class="nav-item">
+                        <a class="nav-link" id="filmesDropdown">
+                            Filmes
+                        </a>
+                        <div class="dropdown hide" aria-labelledby="filmesDropdown">
+                            <a class="dropdown-item" href="#">Populares</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/movie/now-playing?language=pt-BR">Em exibição</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/movie/upcoming?language=pt-BR">Brevemente</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/movie/top-rated?language=pt-BR">Melhor classificação</a>
+                        </div>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" id="seriesDropdown">
+                            Séries
+                        </a>
+                        <div class="dropdown hide" aria-labelledby="seriesDropdown">
+                            <a class="dropdown-item" href="https://www.themoviedb.org/tv?language=pt-BR">Populares</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/tv/airing-today?language=pt-BR">Emitidos Hoje</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/tv/on-the-air?language=pt-BR">Na TV</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/tv/top-rated?language=pt-BR">Melhor classificação</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" id="pessoasDropdown">
+                            Pessoas
+                        </a>
+                        <div class="dropdown hide" aria-labelledby="pessoasDropdown">
+                            <a class="dropdown-item" href="https://www.themoviedb.org/person?language=pt-BR">Pessoas Famosas</a>
+                        </div>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" id="maisDropdown">
+                            Mais
+                        </a>
+                        <div class="dropdown" aria-labelledby="maisDropdown">
+                            <a class="dropdown-item" href="https://www.themoviedb.org/discuss?language=pt-BR">Discussoes</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/leaderboard?language=pt-BR">Lideres</a>
+                            <a class="dropdown-item" href="https://www.themoviedb.org/talk?language=pt-BR">Ajuda e suporte</a>
+                            <a class="dropdown-item" href="https://developer.themoviedb.org/docs/getting-started">API</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="flex">
+            <button class="btn">+</button>
+            <button class="btn btn-language">PT</button>
+            <button class="btn">Iniciar sessão</button>
+        </div>
+    </nav>
+
+    <section class="text-center">
+
+        <div class="tittle">
+            <h2>Filmes Populares</h2>
+        </div>
+        
+        <div class="container-card">
+            <!-- Filmes -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <h3>Redes sociais:</h3>
+                <ul>
+                    <li>
+                        <a href="mailto:leduardosouza2204@gmail.com?subject=Informe o assunto">
+                            <img src="assets/Mail.svg" alt="Ícone de E-mail"> Enviar um email
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/LuisESouza" target="_blank">
+                            <img src="assets/Git.svg" alt="Ícone do GitHub"> GitHub: LuisESouza
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/luis_e_souza/" target="_blank">
+                            <img src="assets/Insta.svg" alt="Ícone do Instagram"> Instagram: luis_e_souza
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="about-me">
+                <h3>Sobre mim:</h3>
+                <p>
+                    Olá! Meu nome é Luis Eduardo Souza, tenho 19 anos, estou atualmente cursando Análise e Desenvolvimento de Sistemas, e estou empenhado em aprofundar meus conhecimentos na área de TI.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/Controller/Controller.js" type="module"></script>
+</body>
+</html>
