@@ -35,6 +35,7 @@ O desafio consistia em criar um site que exibisse os filmes populares utilizando
 
 - DeskTop - ***(1280px)***
 
-![image](https://github.com/LuisESouza/Desafio-TMDB/assets/127172028/e9d1266e-5e84-48ac-91d6-8a9be63dd2df)
+![image](https://github.com/LuisESouza/Desafio-TMDB/assets/127172028/c1305585-fec5-474c-b6ba-6ec75e7b6d2d)
+
 
 
